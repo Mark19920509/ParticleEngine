@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="BaseDemo.cpp" />
+    <ClCompile Include="Demos\WaterDemo.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\TestGrid.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\ClothDemo.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\GalaxyDemo.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\RainDemo.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\Animation.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demos\SimulationsTransition.cpp">
+      <Filter>Demos</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="BaseDemo.h" />
+    <ClInclude Include="Demos\WaterDemo.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\TestGrid.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\ClothDemo.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\GalaxyDemo.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\RainDemo.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\Animation.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demos\SimulationsTransition.h">
+      <Filter>Demos</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Demos">
+      <UniqueIdentifier>{be5af586-600a-49d0-a117-28c8231b013f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

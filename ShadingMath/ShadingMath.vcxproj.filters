@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{5118d28c-7aa2-4f5f-924b-e0a17c24003e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{626855ee-6507-4040-9d9b-3b753f7cf2e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="swig">
+      <UniqueIdentifier>{c267e811-9a82-4c5d-ac45-26f87a6ac92d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\slmath\float_util.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\intersect_util.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\mat4.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\mtrnd.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\quat.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\random.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\random_util.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\runtime_checks.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\simd.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\slmath.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\slmath_configure.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\slmath_lua.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\slmath_pp.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\vec_impl.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\vec2.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\vec3.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\slmath\vec4.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\slmath\float_util.inl">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="include\slmath\mat4.inl">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="include\slmath\quat.inl">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="include\slmath\random.inl">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="include\slmath\runtime_checks.inl">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="include\slmath\vec2.inl">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="include\slmath\vec3.inl">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="include\slmath\vec4.inl">
+      <Filter>Include</Filter>
+    </None>
+    <None Include="swig\slmath.i">
+      <Filter>swig</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\float_util.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\intersect_util.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\mat4.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\quat.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\random.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\random_util.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\runtime_checks.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\slmath_lua.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vec2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vec3.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vec4.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+#error Please update your source code to include <slmath/random.h> instead of <slmath/random_util.h>, thanks!

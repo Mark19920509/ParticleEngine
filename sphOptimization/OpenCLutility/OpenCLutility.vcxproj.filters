@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="SDKApplication.cpp" />
+    <ClCompile Include="SDKBitMap.cpp" />
+    <ClCompile Include="SDKCommandArgs.cpp" />
+    <ClCompile Include="SDKCommon.cpp" />
+    <ClCompile Include="SDKFile.cpp" />
+    <ClCompile Include="SDKThread.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{27af67ab-d702-41b9-aea9-8258d5e7559b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\SDKApplication.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDKBitMap.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDKCommandArgs.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDKCommon.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDKFile.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SDKThread.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

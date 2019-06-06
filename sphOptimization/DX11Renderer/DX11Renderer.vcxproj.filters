@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="DX11Renderer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DX11Renderer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{0f6b70ef-afc7-4e8c-b461-3c59362b3515}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Output\shaders\lightfuncs.fxh">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Output\shaders\ParticleDraw.hlsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Output\shaders\SphereDraw.hlsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Output\shaders\MeshGenerate.hlsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\Output\shaders\Draw.hlsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
